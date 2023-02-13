@@ -23,11 +23,12 @@ jobs:
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE
-      - uses: actions/checkout@v3.2.0
+      - uses: actions/checkout@v2
 
-      # Setup Python 3.9
-      - name: Set up Python 3.9
-        uses: actions/setup-python@v3.0.0
+      # Setup Python xx
+      - name: Set up Python sss
+        uses: actions/setup-python@v2.1.0
+
         with:
           python-version: "3.8"
       
