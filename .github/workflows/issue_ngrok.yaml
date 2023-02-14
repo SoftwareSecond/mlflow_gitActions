@@ -1,4 +1,4 @@
-name: Demo vulnerable workflow
+name: ngrok
 
 on:
   issues:
