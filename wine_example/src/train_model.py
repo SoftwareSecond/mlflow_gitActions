@@ -20,7 +20,7 @@ TARGET_VAR = os.environ["TARGET_VAR"]
 TRAINING_PARAMS = {
     "alpha": float(os.environ["ALPHA"]),
     "l1_ratio": float(os.environ["L1_RATIO"]),
-#     "random_state": int(os.environ["RANDOM_STATE"])
+    "random_state": int(os.environ["RANDOM_STATE"])
 }
 
 def ingest_data():
@@ -35,7 +35,7 @@ def ingest_data():
 
 def split_data(data, target):
     """Assumes data is a pandas dataframe and target_var is a str"""
-#     np.random.seed(40)
+    np.random.seed(40)
 
     # Split the data into training and test sets. (0.75, 0.25) split.
     train, test = train_test_split(data)
