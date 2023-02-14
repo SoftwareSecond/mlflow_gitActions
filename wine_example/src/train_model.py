@@ -20,7 +20,7 @@ TARGET_VAR = os.environ["TARGET_VAR"]
 TRAINING_PARAMS = {
     "alpha": float(os.environ["ALPHA"]),
     "l1_ratio": float(os.environ["L1_RATIO"]),
-    "random_state": int(os.environ["RANDOM_STATE"])
+#     "random_state": int(os.environ["RANDOM_STATE"])
 }
 
 def ingest_data():
