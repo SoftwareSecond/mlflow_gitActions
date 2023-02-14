@@ -35,7 +35,7 @@ def ingest_data():
 
 def split_data(data, target):
     """Assumes data is a pandas dataframe and target_var is a str"""
-    np.random.seed(40)
+#     np.random.seed(40)
 
     # Split the data into training and test sets. (0.75, 0.25) split.
     train, test = train_test_split(data)
